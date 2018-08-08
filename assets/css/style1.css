@@ -1,0 +1,262 @@
+
+
+
+body {
+	background-image: url("../images/mekong-green.png");
+	width: 100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.container {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
+	text-align: center;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+}
+
+h1 {
+	background-color: #4aaaa5;	
+	float: left;
+	margin-left: 13%;
+	margin-bottom: 0px;
+	border-radius: 2%;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+nav {
+	margin-top: 3%;
+	padding: 5% auto;
+}
+
+nav a {
+	text-decoration: none;
+	padding: .25em 1em;
+	color: #666666
+	
+}
+
+nav a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.about-me {
+	font-size: 2em;
+	border-bottom: 1px solid #cccccc;
+	color: #4aaaa5;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.picture {
+	margin-top: 1%;
+	width: 50%;
+	height: 50%;
+	margin-right: 2%;
+	margin-left: 2%;
+	float: left;
+	border-radius: 1%;
+	border-color: black;
+}
+
+p {
+	text-align: justify;
+	margin-right: 3%;
+	margin-top: 2%;
+	font-size: 20px;
+	margin-left: 3%;
+	line-height: 1.5;
+	color: #444;
+	
+}
+
+.middle-section {
+	background-color: #ffffff;
+	padding-bottom: 10%;
+	margin:7% 12.50% auto 12.50%;
+	border-radius: .5%;
+	border: 1px solid #cccccc;
+
+}
+
+.float-left{
+	float: left;
+}
+
+	
+.float-right {
+	float: right;
+}
+
+.image1 {
+	width: 45%;
+	height: 45%;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+
+.image {
+	width: 45%;
+	margin-left: 3%;
+	margin-top: 2%;
+	
+}
+.portfolio {
+	padding-bottom: 10%;
+}
+
+ul {
+	margin-left: 52%;
+}
+
+.contact-info {
+	margin-top: 8%;
+}
+
+.footer {
+
+	margin-top: 10%;
+	margin-bottom: -10%;
+	width: 100%;
+	margin-right: -5%;
+
+}
+
+.subfooter {
+	
+	background-color: #4aaaa5;
+	padding: 4px;
+	
+}
+
+footer {
+	background-color: #666666;
+	padding: 10px;
+	text-align: center;
+
+
+
+}
+input {
+	margin-left: 1%;
+}
+textarea{
+	margin-left: 1%;
+}
+.survey p {
+	margin-left: 1%;
+}
+button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-left: 1%;
+	font-size: 24px;
+}
+
+
+
+@media (max-width: 980px) {
+	h1 {
+		margin-left: 5.5%;
+		margin-right: 22%;
+		margin-top: 0%;
+		padding-top: 2.5%;
+		padding-bottom:2.5%;
+	}
+
+
+	
+	.middle-section {
+		margin: 13% 35% auto 5%;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+}
+
+
+
+@media (max-width: 768px) {
+	h1 {
+		margin-top: 0%;
+		margin-bottom: 0%;
+		margin-left: 6%;
+		padding-top: 2.5%;
+		padding-bottom:2.5%;
+	}
+
+	.middle-section {
+		margin:15% 5% auto 5%;
+	}
+		p {
+			font-size: 15px;
+		}
+		.image1 {
+			height: 30%;
+		}
+
+		input {
+			width: 95%;
+		}
+		textarea {
+			width: 95%;
+		}
+}
+
+
+@media (max-width: 640px){
+	body{
+		width: 100%;
+	}
+	.container{
+		width: 100%;
+		margin-left: -5%;
+	}
+	h1 {
+		width: 100%;
+		font-size: 30px;
+		margin-top: 0%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	nav a{
+		width: 100%;
+	
+	}
+
+	.about-me {
+		font-size: 24px;
+	}
+	.picture {
+		width: 95%;
+		margin-bottom: 5%;
+	}
+	p {
+		font-size: 15px;
+	}
+	textarea {
+		width: 95%;
+	}
+
+	button {
+		font-size: 15px;
+	}
+	.image1{
+		width: 93%;
+		
+	}
+	.image {
+		width: 93%;
+	}
+}
